@@ -73,6 +73,10 @@ a:hover {
   font-size: 2.5rem;
 }
 
+#main h1 {
+  padding-left: 2.8rem;
+}
+
 #main h1 span {
   color: #1e58c4;
   font-weight: 200;
@@ -104,10 +108,30 @@ a:hover {
   align-items: center;
   text-align: center;
   justify-content: center;
+  background-position: center;
+  background-size: cover;
 }
 
 #pictures article p {
+  color: white;
+  text-shadow: black solid 2px;
   font-size: 4rem;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+#piranessi {
+  background-image: url("/img/Piranessi.png");
+}
+
+#cobble {
+  background-image: url("/img/Cobble.png");
+}
+
+#tides {
+  background-image: url("/img/Tides.png");
+}
+
+#chateau {
+  background-image: url("/img/Chateau.png");
 }
 /*# sourceMappingURL=syle.css.map */
