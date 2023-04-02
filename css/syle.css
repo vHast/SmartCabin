@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7c7c7c;
+}
+
+.burger-button {
+  position: absolute;
+  display: block;
+  top: 50px;
+  right: 50px;
+  align-self: flex-end;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.burger-button:hover {
+  background-color: #eeeeee;
+  color: black;
+  transition: 0.3s;
+}
+
+#hide-btn {
+  display: none;
+}
+
+#light-theme-btn {
+  right: 115px;
+}
+
+#burger-menu {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  text-align: end;
+  justify-content: center;
+  font-size: 2.5rem;
+  align-items: center;
+}
+
+#burger-menu ul {
+  margin-right: 5%;
+  text-align: end;
+  width: inherit;
+}
+
+#burger-menu ul li {
+  align-self: flex-end;
+}
+
+#main {
+  background-color: white;
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-bottom: 25px;
+  font-size: 2.5rem;
+}
+
+#main h1 span {
+  color: #1e58c4;
+  font-weight: 200;
+}
+
+#projects {
+  font-size: 2rem;
+  padding: 2rem 0rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#pictures {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 400px;
+  margin: 0rem 5%;
+}
+
+#pictures article {
+  height: 400px;
+  width: 23%;
+  background-color: #60bfff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#pictures article p {
+  font-size: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/*# sourceMappingURL=syle.css.map */
