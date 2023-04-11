@@ -70,11 +70,7 @@ a:hover {
   padding-top: 25px;
   padding-left: 50px;
   padding-bottom: 25px;
-  font-size: 2.5rem;
-}
-
-#main h1 {
-  padding-left: 2.8rem;
+  font-size: 2.3rem;
 }
 
 #main h1 span {
@@ -101,6 +97,7 @@ a:hover {
 }
 
 #pictures article {
+  border-radius: 15px;
   height: 400px;
   width: 23%;
   background-color: #60bfff;
@@ -134,4 +131,4 @@ a:hover {
 #chateau {
   background-image: url("/img/Chateau.png");
 }
-/*# sourceMappingURL=syle.css.map */
+/*# sourceMappingURL=style.css.map */

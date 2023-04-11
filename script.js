@@ -4,10 +4,12 @@ const burgerButtonShow = () => {
   let element = document.querySelector('#burger-menu');
   let hideBtn = document.querySelector('#hide-btn');
   let showBtn = document.querySelector('#show-btn');
+  let elements = document.querySelector('.contents');
 
   element.style.display = "flex";
   hideBtn.style.display = "block";
   showBtn.style.display = "none";
+  elements.style.display = "none";
 }
 
 const burgerButtonHide= () => {
